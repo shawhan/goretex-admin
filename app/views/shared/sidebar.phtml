@@ -1,0 +1,48 @@
+<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar"><ul class="nav menu">
+<?php 
+    $url = $this->router->getRewriteUri();
+    $nav_array = array(
+        "輪播圖片" => array(
+            "/banner" => "列表",
+            "/banner/add" => "新增",
+        ),
+        "最新消息" => array(
+            "/news" => "列表",
+            "/news/add" => "新增",
+        ),
+        "媒體報導" => array(
+            "/media" => "列表",
+            "/media/add" => "新增",
+        ),
+        "美麗見證" => array(
+            "/case" => "列表",
+            "/case/add" => "新增",
+        ),
+        "活動紀實" => array(
+            "/activity" => "列表",
+            "/activity/add" => "新增",
+        )
+    );
+?>
+    <li><a href="/"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> 首頁</a></li></li>
+    <?php foreach($nav_array as $title => $row) : 
+        $active = (array_key_exists($url, $row)) ? true : false;?>
+        <li class="parent <?php echo ($active) ? "active" : "";?>">
+            <a data-toggle="collapse" href="#submenu-<?php echo $title?>">
+                <svg class="glyph chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg>
+                <?php echo $title?>
+            </a>
+            <ul class="children collapse <?php echo ($active) ? "in" : "";?>"" id="submenu-<?php echo $title?>">
+                <?php foreach($row as $link => $page) :?>
+                <li><a href="<?php echo $link;?>">
+                    <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> <?php echo $page;?>
+                </a></li>
+                <?php endforeach;?>
+            </ul>
+        </li>
+    <?php endforeach;?>
+    <li role="presentation" class="divider"></li>
+    <li>
+        <a class="logout-btn" href="/logout"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>登出</a>
+    </li>
+</ul></div>
