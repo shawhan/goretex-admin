@@ -37,6 +37,12 @@
 							    </div>
 							</div>
 							<div class="form-group">
+							    <label class="col-sm-3 control-label">媒體</label>
+							    <div class="col-sm-9">
+							      <input class="form-control" name="media" type="text" placeholder="請輸入媒體" value="<?php echo (!empty($data->media)) ? $data->media : '';?>">
+							    </div>
+							</div>
+							<div class="form-group">
 							    <label class="col-sm-3 control-label">排序*</label>
 							    <div class="col-sm-9">
 							      <input class="form-control" name="sort" type="text" placeholder="請輸入排序" value="<?php echo (!empty($data->sort)) ? $data->sort : '';?>" required>
@@ -54,7 +60,7 @@
 							    <label class="col-sm-3 control-label">連結網址</label>
 							    <div class="col-sm-9">
 							      <input class="form-control" type="text" name="url" placeholder="連結網址" value="<?php echo (!empty($data->url)) ? $data->url : '';?>">
-							      <span class="help-block">不需要連結請留空</span>
+							      <span class="help-block">不需要連結請留空，Youtube影片請輸入ID</span>
 							    </div>
 							</div>
 							<div class="form-group">

@@ -75,6 +75,7 @@ class MediaController extends ControllerBase
                 "date" => $date,
                 "photo" => $photo_path,
                 "url" => $url,
+                "media" => $media,
                 "type" => $type,
                 "sort" => $sort,
                 "create" => date('Y-m-d H:i')
@@ -143,6 +144,7 @@ class MediaController extends ControllerBase
                 "photo" => $row->photo,
                 "url" => $url,
                 "type" => $type,
+                "media" => $media,
                 "sort" => $sort,
                 "create" => $row->create
             );
