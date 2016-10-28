@@ -17,7 +17,7 @@ class IndexController extends ControllerBase
     {
     	$http_origin = $_SERVER['HTTP_ORIGIN'];
     	$allow_http_origin = array(
-		    'http://shockwave.com.tw',
+		    'http://beautynose.com.tw',
 		    'https://shawhan.github.io',
 		    'http://127.0.0.1:24681'
 		);
