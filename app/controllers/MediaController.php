@@ -33,20 +33,35 @@ class MediaController extends ControllerBase
             $return_to = '/media/add';
         }
 
+        $cover_path = "";
+        $photo_path = "";
         if ($this->request->hasFiles() == true) {
             $isUploaded = false;
             foreach ($this->request->getUploadedFiles() as $file) {
-                $path = 'img/'. md5(uniqid(rand(), true)) . '-' .$file->getName();
-                if ($file->moveTo($path)) {
-                    $isUploaded = true;
-                }
+                if($file->getName() !== "") {
+                    $key = $file->getKey();
+                    $path = 'img/'. md5(uniqid(rand(), true)) . '-' .$file->getName();
+                    if ($file->moveTo($path)) {
+                        $isUploaded = true;
+                    }
 
-                if ($isUploaded == false) {
-                    $hasError = true;
-                    $this->flashSession->error("請重新上傳圖片。");
-                }
+                    if ($isUploaded == false) {
+                        $hasError = true;
+                        if ($key === "cover") {
+                            $this->flashSession->error("請重新上傳封面圖片。");
+                        } 
+                        if ($key === "photo") {
+                            $this->flashSession->error("請重新上傳展開圖片。");
+                        }
+                    }
 
-                $photo_path = $this->di->config->site->url . '/'.  $path;
+                    if ($key === "cover") {
+                        $cover_path = $this->di->config->site->url . '/'.  $path;
+                    }
+                    if ($key === "photo") {
+                        $photo_path = $this->di->config->site->url . '/'.  $path;
+                    }
+                }
             }
         }
 
@@ -62,6 +77,10 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
+        if ($type === "" && $photo_path === "") {
+            $hasError = true;
+            $this->flashSession->error("請上傳展開圖片。");
+        }
 
         if($hasError){
             return $this->dispatcher->forward(array(
@@ -73,6 +92,7 @@ class MediaController extends ControllerBase
             $insert = array(
                 "title" => $title,
                 "date" => $date,
+                "cover" => $cover_path,
                 "photo" => $photo_path,
                 "url" => $url,
                 "media" => $media,
@@ -119,23 +139,36 @@ class MediaController extends ControllerBase
         extract($postdata, EXTR_SKIP);
         $hasError = false;
 
-        if ($this->request->hasFiles() == true && $_FILES["photo"]["name"] !== "") {
+        $cover_path = $row->cover;
+        $photo_path = $row->photo;
+        if ($this->request->hasFiles() == true) {
             $isUploaded = false;
             foreach ($this->request->getUploadedFiles() as $file) {
-                $path = 'img/'. md5(uniqid(rand(), true)) . '-' .$file->getName();
-                if ($file->moveTo($path)) {
-                    $isUploaded = true;
-                }
+                if($file->getName() !== "") {
+                    $key = $file->getKey();
+                    $path = 'img/'. md5(uniqid(rand(), true)) . '-' .$file->getName();
+                    if ($file->moveTo($path)) {
+                        $isUploaded = true;
+                    }
 
-                if ($isUploaded == false) {
-                    $hasError = true;
-                    $this->flashSession->error("請重新上傳圖片。");
-                }
+                    if ($isUploaded == false) {
+                        $hasError = true;
+                        if ($key === "cover") {
+                            $this->flashSession->error("請重新上傳封面圖片。");
+                        } 
+                        if ($key === "photo") {
+                            $this->flashSession->error("請重新上傳展開圖片。");
+                        }
+                    }
 
-                $photo_path = $this->di->config->site->url . '/'.  $path;
+                    if ($key === "cover") {
+                        $cover_path = $this->di->config->site->url . '/'.  $path;
+                    }
+                    if ($key === "photo") {
+                        $photo_path = $this->di->config->site->url . '/'.  $path;
+                    }
+                }
             }
-        } else {
-            $photo_path = $row->photo;
         }
 
         if (empty($title)) {
@@ -150,6 +183,14 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
+        if ($type === "" && $photo_path === "") {
+            $hasError = true;
+            $this->flashSession->error("請上傳展開圖片。");
+        }
+        if ($type === "link" && $url === "") {
+            $hasError = true;
+            $this->flashSession->error("請輸入連結網址。");
+        }
         
         if($hasError){
             return $this->dispatcher->forward(array(
@@ -160,6 +201,7 @@ class MediaController extends ControllerBase
             $update = array(
                 "title" => $title,
                 "date" => $date,
+                "cover" => $cover_path,
                 "photo" => $photo_path,
                 "url" => $url,
                 "type" => $type,
