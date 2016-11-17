@@ -9,9 +9,19 @@ class NewsController extends ControllerBase
     public function listAction()
     {
         $data = json_decode(file_get_contents('data.json'));
-        // foreach($data->news as $news) {
-        //     var_dump($news);
-        // }
+        foreach($data->news as $news) {
+            $block_id = array(
+                '#case' => '美麗見證',
+                '#about' => '什麼是卡麥拉',
+                '#qa' => '美鼻Q&A',
+                '#media' => '媒體報導',
+                '#activity' => '活動紀實',
+                '#contact' => '聯絡我們'
+            );
+            if (array_key_exists($news->url, $block_id)) {
+                $news->url = '#' . $block_id[$news->url];
+            }
+        }
 
         $this->view->setVar('data', $data->news);
         $this->view->pick('news/list');
@@ -41,6 +51,28 @@ class NewsController extends ControllerBase
             $this->flashSession->error("請輸入順序。");
         }
         
+        switch ($type) {
+            case "":
+                $url = "";
+                break;
+            case "linkto":
+                if ($linkto === "") {
+                    $hasError = true;
+                    $this->flashSession->error("請選擇連結區塊。");
+                } else {
+                    $url = $linkto;
+                }
+                break;
+            case "other":
+                if ($other === "") {
+                    $hasError = true;
+                    $this->flashSession->error("請輸入連結網址。");
+                } else {
+                    $url = $other;
+                }
+                break;
+        }
+
         if($hasError){
             return $this->dispatcher->forward(array(
                 'controller'    => 'news',
@@ -73,6 +105,24 @@ class NewsController extends ControllerBase
 
         $row = $data->news[$id];
 
+        $block_id = array(
+            '#case' => '美麗見證',
+            '#about' => '什麼是卡麥拉',
+            '#qa' => '美鼻Q&A',
+            '#media' => '媒體報導',
+            '#activity' => '活動紀實',
+            '#contact' => '聯絡我們'
+        );
+        if (array_key_exists($row->url, $block_id)) {
+            $row->type = "linkto";
+        } else {
+            if($row->url === "") {
+                $row->type = "";
+            } else {
+                $row->type = "other";
+            }
+        }
+
         $this->view->setVar('id', $id);
         $this->view->setVar('data', $row);
         $this->view->setVar('return_to', '/news/edit/' . $id);
@@ -99,6 +149,28 @@ class NewsController extends ControllerBase
         if (empty($sort)) {
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
+        }
+        
+        switch ($type) {
+            case "":
+                $url = "";
+                break;
+            case "linkto":
+                if ($linkto === "") {
+                    $hasError = true;
+                    $this->flashSession->error("請選擇連結區塊。");
+                } else {
+                    $url = $linkto;
+                }
+                break;
+            case "other":
+                if ($other === "") {
+                    $hasError = true;
+                    $this->flashSession->error("請輸入連結網址。");
+                } else {
+                    $url = $other;
+                }
+                break;
         }
         
         if($hasError){
