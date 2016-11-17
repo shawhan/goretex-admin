@@ -100,6 +100,7 @@ class MediaController extends ControllerBase
             $data = json_decode(file_get_contents('data.json'));
             $insert = array(
                 "title" => $title,
+                "summary" => $summary,
                 "date" => $date,
                 "cover" => $cover_path,
                 "photo" => $photo_path,
@@ -218,6 +219,7 @@ class MediaController extends ControllerBase
         }else{
             $update = array(
                 "title" => $title,
+                "summary" => $summary,
                 "date" => $date,
                 "cover" => $cover_path,
                 "photo" => $photo_path,
