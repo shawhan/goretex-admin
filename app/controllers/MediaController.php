@@ -73,7 +73,9 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入日期。");
         }
-        if (empty($sort)) {
+
+        $sort = (int)$sort;
+        if ($sort === "" || !is_int($sort)) {
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
@@ -189,7 +191,9 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入日期。");
         }
-        if (empty($sort)) {
+        
+        $sort = (int)$sort;
+        if ($sort === "" || !is_int($sort)) {
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
