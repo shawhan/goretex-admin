@@ -48,13 +48,17 @@ class ActivityController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入標題。");
         }
+        if (empty($date)) {
+            $hasError = true;
+            $this->flashSession->error("請輸入日期。");
+        }
 
         $sort = (int)$sort;
         if ($sort === "" || !is_int($sort)) {
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
-        
+
         if($hasError){
             return $this->dispatcher->forward(array(
                 'controller'    => 'activity',
@@ -68,6 +72,8 @@ class ActivityController extends ControllerBase
                 "photo" => $photo_path,
                 "url" => $url,
                 "sort" => $sort,
+                "media" => $media,
+                "date" => $date,
                 "create" => date('Y-m-d H:i')
             );
             $data->activity[] = $insert;
@@ -117,18 +123,22 @@ class ActivityController extends ControllerBase
         } else {
             $photo_path = $row->photo;
         }
-        
+
         if (empty($title)) {
             $hasError = true;
             $this->flashSession->error("請輸入標題。");
         }
-        
+        if (empty($date)) {
+            $hasError = true;
+            $this->flashSession->error("請輸入日期。");
+        }
+
         $sort = (int)$sort;
         if ($sort === "" || !is_int($sort)) {
             $hasError = true;
             $this->flashSession->error("請輸入順序。");
         }
-        
+
         if($hasError){
             return $this->dispatcher->forward(array(
                 'controller'    => 'activity',
@@ -140,6 +150,8 @@ class ActivityController extends ControllerBase
                 "summary" => $summary,
                 "photo" => $photo_path,
                 "url" => $url,
+                "media" => $media,
+                "date" => $date,
                 "sort" => $sort,
                 "create" => $row->create
             );
