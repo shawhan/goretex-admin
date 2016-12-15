@@ -17,7 +17,7 @@
         {
             "title": "3",
             "photo": "http://data.beautynose.com.tw/img/22a1d95995e78efe93564eb97255ac31-banner03-03.jpg",
-            "url": "",
+            "url": "#case",
             "sort": 10,
             "create": "2016-11-29 03:11"
         },
@@ -44,15 +44,15 @@
     "media": [
         {
             "title": "打造美女的誕生！　後天美人的鼻整計畫",
-            "summary": "",
+            "summary": "以鼻整形手術的項目來說，現在不再以鼻子墊的高度來衡量手術成果，而是以自然程度、形狀是否適合個人臉型、後續維持等方面來評估。高雄知名醫美診所「萊佳形象美學診所」的許英哲醫師指出，在材質的選擇上，卡麥拉結合自體軟骨來做為填充物，由於卡麥拉結合了矽膠以及Gore-tex材質的優點，為有鼻形問題的民眾帶來最好的解決方案，完美打造出自然不做作的鼻形。",
             "date": "2015-01-28",
-            "create": "2016-11-29 03:11",
-            "doctor": "許英哲",
-            "sort": 10,
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/1.png",
+            "url": "",
+            "type": "",
             "media": "Yahoo奇摩新聞",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
-            "photo": "https://shawhan.github.io/goretex/img/media/1.png"
+            "sort": 10,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "年關趕著進廠變美？　慎選醫師以免變「危整」",
@@ -62,8 +62,8 @@
             "doctor": "吳峻豪",
             "sort": 10,
             "media": "Yahoo奇摩新聞",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/2.png"
         },
         {
@@ -74,8 +74,8 @@
             "doctor": "韋志曄",
             "sort": 10,
             "media": "Yahoo奇摩新聞",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/3.png"
         },
         {
@@ -86,8 +86,8 @@
             "doctor": "菲仕美",
             "sort": 10,
             "media": "Yahoo奇摩新聞",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/4.png"
         },
         {
@@ -98,8 +98,8 @@
             "doctor": "林孟羲",
             "sort": 10,
             "media": "Yahoo奇摩新聞",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/5.png"
         },
         {
@@ -110,8 +110,8 @@
             "doctor": "",
             "sort": 10,
             "media": "柯夢波丹",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/6.jpg"
         },
         {
@@ -122,8 +122,8 @@
             "doctor": "",
             "sort": 10,
             "media": "蘋果日報",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/7.png"
         },
         {
@@ -134,8 +134,8 @@
             "doctor": "",
             "sort": 10,
             "media": "蘋果日報",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/8.png"
         },
         {
@@ -144,8 +144,8 @@
             "date": "2015-02-27",
             "create": "2016-11-29 03:11",
             "media": "蘋果日報",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "sort": 10,
             "photo": "https://shawhan.github.io/goretex/img/media/9.png"
         },
@@ -157,8 +157,8 @@
             "doctor": "",
             "sort": 10,
             "media": "蘋果日報",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/10.png"
         },
         {
@@ -169,8 +169,8 @@
             "doctor": "",
             "sort": 10,
             "media": "",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/11.jpg"
         },
         {
@@ -181,9 +181,21 @@
             "doctor": "",
             "sort": 10,
             "media": "",
-            "type" : "",
-            "cover" : "https://shawhan.github.io/goretex/img/example.jpg",
+            "type": "",
+            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
             "photo": "https://shawhan.github.io/goretex/img/media/12.jpg"
+        },
+        {
+            "title": "測",
+            "summary": "測",
+            "date": "2016-11-30",
+            "cover": "http://data.beautynose.com.tw/img/43d5e24bb1926899a0de4d978670ab19.png",
+            "photo": "http://data.beautynose.com.tw/img/6046b9bedeb37db532926dff0bc67352-Screen Shot 2016-12-05 at 5.55.14 PM.png",
+            "url": "",
+            "type": "",
+            "media": "",
+            "sort": 10,
+            "create": "2016-11-30 14:27"
         }
     ],
     "case": [
@@ -194,7 +206,7 @@
             "create": "2016-11-29 03:11",
             "sort": 10,
             "url": "http://genieinthebottle.pixnet.net/blog/post/380195338",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "28歲夢想成真-卡麥拉美女",
@@ -203,7 +215,7 @@
             "create": "2016-11-29 03:11",
             "sort": 10,
             "url": "http://atin807.pixnet.net/blog/post/26188607",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "《做個美鼻好過年》 卡麥拉隆鼻滿月分享-高雄萊佳許英哲 ",
@@ -212,7 +224,7 @@
             "create": "2016-11-29 03:11",
             "sort": 10,
             "url": "http://fibi38.pixnet.net/blog/post/42777644",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "《卡麥拉給了我新人生》 術後6個月分享-高雄萊佳許英哲",
@@ -221,51 +233,52 @@
             "create": "2016-11-29 03:11",
             "sort": 10,
             "url": "http://fibi38.pixnet.net/blog/post/43011809",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         }
     ],
     "activity": [
         {
             "title": "新一代卡麥拉，美型上市！",
             "summary": "",
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
+            "url": "",
             "sort": 10,
-            "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "美鼻修修",
             "summary": "",
             "sort": 10,
             "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "鼻子超挺",
             "summary": "",
             "sort": 10,
             "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "鼻子超挺",
             "summary": "",
             "sort": 10,
             "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "鼻子超挺",
             "summary": "",
             "sort": 10,
             "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         },
         {
             "title": "鼻子超挺",
             "summary": "",
             "sort": 10,
             "create": "2016-11-29 03:11",
-            "photo": "https://shawhan.github.io/goretex/img/example.jpg"
+            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         }
     ]
 }
