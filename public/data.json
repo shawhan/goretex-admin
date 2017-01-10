@@ -2,28 +2,28 @@
     "banner": [
         {
             "title": "1",
-            "photo": "http://data.beautynose.com.tw/img/5a04589854c80259bf96475359750e0f-banner01-01.jpg",
+            "photo": "http://data.beautynose.com.tw/img/aec1e30bca09e240f179326e87dfadca-banner01-01.jpg",
             "url": "",
             "sort": 10,
             "create": "2016-11-29 03:11"
         },
         {
             "title": "2",
-            "photo": "http://data.beautynose.com.tw/img/d08384837800cf4683577ca12d2b7f01-banner02-02.jpg",
+            "photo": "http://data.beautynose.com.tw/img/943f08b9cb9e998ecad1356c02d8cca9-banner02-02.jpg",
             "url": "",
             "sort": 10,
             "create": "2016-11-29 03:11"
         },
         {
             "title": "3",
-            "photo": "http://data.beautynose.com.tw/img/22a1d95995e78efe93564eb97255ac31-banner03-03.jpg",
+            "photo": "http://data.beautynose.com.tw/img/23cee5621f1ed3e0698878b06ad8eac6-banner03-03.jpg",
             "url": "#case",
             "sort": 10,
             "create": "2016-11-29 03:11"
         },
         {
             "title": "4",
-            "photo": "http://data.beautynose.com.tw/img/d19cf2cf41b007e77a7652e1feb53bd0-banner04-04.png",
+            "photo": "http://data.beautynose.com.tw/img/857a5495c36675f1da9d92031c2fe172-banner04-04.jpg",
             "url": "",
             "sort": 10,
             "create": "2016-11-29 03:11"
@@ -32,267 +32,261 @@
     "news": [
         {
             "title": "成為卡麥拉代言人，你也可以！",
-            "url": "#media",
+            "url": "#case",
+            "sort": 1,
             "create": "2016-11-29 03:11"
         },
         {
-            "title": "～卡麥拉打造黃金顏面美學～",
-            "url": "",
-            "create": "2016-11-29 03:11"
+            "title": "卡麥拉打造黃金顏面美學",
+            "url": "#about",
+            "sort": 10,
+            "create": "2016-12-16 15:13"
         }
     ],
     "media": [
         {
             "title": "打造美女的誕生！　後天美人的鼻整計畫",
-            "summary": "以鼻整形手術的項目來說，現在不再以鼻子墊的高度來衡量手術成果，而是以自然程度、形狀是否適合個人臉型、後續維持等方面來評估。高雄知名醫美診所「萊佳形象美學診所」的許英哲醫師指出，在材質的選擇上，卡麥拉結合自體軟骨來做為填充物，由於卡麥拉結合了矽膠以及Gore-tex材質的優點，為有鼻形問題的民眾帶來最好的解決方案，完美打造出自然不做作的鼻形。",
+            "summary": "以鼻整形手術的項目來說，現在不再以鼻子墊的高度來衡量手術成果，而是以自然程度、形狀是否適合個人臉型、後續維持等方面來評估。高雄「萊佳形象美學診所」許英哲醫師指出，由於卡麥拉結合了矽膠以及Gore-tex材質的優點，為有鼻形問題的民眾帶來最好的解決方案，完美打造出自然不做作的鼻形。",
             "date": "2015-01-28",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
+            "cover": "http://data.beautynose.com.tw/img/d670fe61f94d48292390c4c8a1782fce.png",
             "photo": "https://shawhan.github.io/goretex/img/media/1.png",
             "url": "",
             "type": "",
             "media": "Yahoo奇摩新聞",
-            "sort": 10,
+            "sort": 9,
             "create": "2016-11-29 03:11"
         },
         {
             "title": "年關趕著進廠變美？　慎選醫師以免變「危整」",
             "summary": "",
             "date": "2015-02-26",
-            "create": "2016-11-29 03:11",
-            "doctor": "吳峻豪",
-            "sort": 10,
-            "media": "Yahoo奇摩新聞",
+            "cover": "http://data.beautynose.com.tw/img/ed59c1db860cc500a034d1a9d6bf8e0f.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/2.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/2.png"
+            "media": "Yahoo奇摩新聞",
+            "sort": 10,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "還我漂亮鼻！結構式鼻形手術搶救野豬妹",
             "summary": "",
             "date": "2015-03-02",
-            "create": "2016-11-29 03:11",
-            "doctor": "韋志曄",
-            "sort": 10,
-            "media": "Yahoo奇摩新聞",
+            "cover": "http://data.beautynose.com.tw/img/2f34d641c719502ff8c6c66c8b33fed1.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/3.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/3.png"
+            "media": "Yahoo奇摩新聞",
+            "sort": 10,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "別再誤會卡麥拉會感染 年前進廠隆鼻多3成",
             "summary": "",
             "date": "2015-12-16",
-            "create": "2016-11-29 03:11",
-            "doctor": "菲仕美",
-            "sort": 10,
-            "media": "Yahoo奇摩新聞",
+            "cover": "http://data.beautynose.com.tw/img/98e0ce353e23b84316149ccbb6b4a60b.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/4.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/4.png"
+            "media": "Yahoo奇摩新聞",
+            "sort": 10,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "小心抽菸、熬夜沒睡飽 都會讓隆鼻功虧一簣",
             "summary": "",
             "date": "2015-12-29",
-            "create": "2016-11-29 03:11",
-            "doctor": "林孟羲",
-            "sort": 10,
-            "media": "Yahoo奇摩新聞",
+            "cover": "http://data.beautynose.com.tw/img/f172504aa3311208e5f5fe5e23e93387.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/5.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/5.png"
+            "media": "Yahoo奇摩新聞",
+            "sort": 8,
+            "create": "2016-11-29 03:11"
         },
         {
-            "title": "卡麥拉韓式隆鼻-尼斯診所",
-            "summary": "",
+            "title": "性感，從鼻尖開始-卡麥拉韓式隆鼻",
+            "summary": "尼斯診所張簡仕煌醫師帶你揭開韓式隆鼻的秘密",
             "date": "2014年12月",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "柯夢波丹",
+            "cover": "http://data.beautynose.com.tw/img/3a939c8c9a5c8f7ea9959ebca534babb.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/6.jpg",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/6.jpg"
+            "media": "柯夢波丹",
+            "sort": 10,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "把妹要LINE被拒，男大生進化韓國歐巴",
             "summary": "",
             "date": "2015-01-21",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "蘋果日報",
+            "cover": "http://data.beautynose.com.tw/img/ea134f96e6c550dbaa73a56cebb26b6f.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/7.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/7.png"
+            "media": "蘋果日報",
+            "sort": 8,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "美肌修過頭當心山根失蹤　想拍美照鼻型是關鍵！",
             "summary": "",
             "date": "2015-08-28",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "蘋果日報",
+            "cover": "http://data.beautynose.com.tw/img/5fc2a06d902c4d25af7df53aabd343ee.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/8.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/8.png"
+            "media": "蘋果日報",
+            "sort": 8,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "微晶瓷隆鼻不夠力？ 卡麥拉隆鼻美麗一次到位！",
             "summary": "",
             "date": "2015-02-27",
-            "create": "2016-11-29 03:11",
-            "media": "蘋果日報",
+            "cover": "http://data.beautynose.com.tw/img/43b4499886f91e041c6fc9bbb31cb870.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/9.png",
+            "url": "",
             "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "sort": 10,
-            "photo": "https://shawhan.github.io/goretex/img/media/9.png"
+            "media": "蘋果日報",
+            "sort": 9,
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "微整也有疲乏曲線？不如用〝卡麥拉韓式隆鼻〞一次到位！",
             "summary": "",
             "date": "2015-03-18",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "蘋果日報",
-            "type": "",
             "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/10.png"
-        },
-        {
-            "title": "整形達人 - 峻美診所",
-            "summary": "",
-            "date": "2015年1月",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "",
-            "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/11.jpg"
-        },
-        {
-            "title": "ELLE",
-            "summary": "",
-            "date": "2015年2月",
-            "create": "2016-11-29 03:11",
-            "doctor": "",
-            "sort": 10,
-            "media": "",
-            "type": "",
-            "cover": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
-            "photo": "https://shawhan.github.io/goretex/img/media/12.jpg"
-        },
-        {
-            "title": "測",
-            "summary": "測",
-            "date": "2016-11-30",
-            "cover": "http://data.beautynose.com.tw/img/43d5e24bb1926899a0de4d978670ab19.png",
-            "photo": "http://data.beautynose.com.tw/img/6046b9bedeb37db532926dff0bc67352-Screen Shot 2016-12-05 at 5.55.14 PM.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/10.png",
             "url": "",
             "type": "",
-            "media": "",
+            "media": "蘋果日報",
             "sort": 10,
-            "create": "2016-11-30 14:27"
+            "create": "2016-11-29 03:11"
+        },
+        {
+            "title": "卡麥拉隆鼻正夯！鼻尖雕塑女神氣勢",
+            "summary": "峻美診所創造女神氣勢！盡情享受自拍！",
+            "date": "2015年1月",
+            "cover": "http://data.beautynose.com.tw/img/3ce3457618546e51aaf3ab526bf22e33.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/11.jpg",
+            "url": "",
+            "type": "",
+            "media": "整形達人",
+            "sort": 10,
+            "create": "2016-11-29 03:11"
+        },
+        {
+            "title": "專家快問快答打造3D美鼻",
+            "summary": "卡麥拉兼顧時尚美感和高度安全性，透過專家深入瞭解卡麥拉及隆鼻大小事",
+            "date": "2015年2月",
+            "cover": "http://data.beautynose.com.tw/img/87f54f7953f603fda415b366e16890b1.png",
+            "photo": "https://shawhan.github.io/goretex/img/media/12.jpg",
+            "url": "",
+            "type": "",
+            "media": "ELLE",
+            "sort": 7,
+            "create": "2016-11-29 03:11"
+        },
+        {
+            "title": "女星捏鼻凹塌陷隆鼻疑雲 ",
+            "summary": "慕顏診所韋志業醫師現身說明如何辨真假",
+            "date": "2016-09-13",
+            "cover": "http://data.beautynose.com.tw/img/300c03cba2954b6e42c63ab78fa0cc29.png",
+            "photo": "http://data.beautynose.com.tw/img/8ee7d289fb9fcac940b9dedd7c1b0c12-20160913_Yahoo_女星捏鼻凹塌陷隆鼻疑雲 醫師說明如何辨真假.png",
+            "url": "",
+            "media": "Yahoo奇摩新聞",
+            "type": "",
+            "sort": 5,
+            "create": "2016-12-27 11:25"
         }
     ],
     "case": [
         {
             "title": "朝女神進化-卡麥拉修修臉",
-            "summary": "",
-            "date": "2016-03-11",
-            "create": "2016-11-29 03:11",
-            "media": "",
-            "sort": 10,
+            "summary": "慕顏診所韋志曄醫師幫我變身零死角美女，來看看居居利用卡麥拉修修臉的心路歷程",
+            "cover": "http://data.beautynose.com.tw/img/f8d3d45eaf8c290a869f54d2bf65289e.png",
+            "photo": "http://data.beautynose.com.tw/img/f8d3d45eaf8c290a869f54d2bf65289e.png",
+            "type": "",
             "url": "http://genieinthebottle.pixnet.net/blog/post/380195338",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
+            "sort": 10,
+            "media": "",
+            "date": "2016-05-11",
+            "create": "2016-11-29 03:11"
         },
         {
             "title": "28歲夢想成真-卡麥拉美女",
-            "summary": "",
-            "date": "2015-12-15",
-            "create": "2016-11-29 03:11",
-            "media": "",
-            "sort": 10,
+            "summary": "菲仕美林孟羲院長的巧手幫我實現了一直想隆鼻的願望，終於不用再花時間化鼻影妝囉！",
+            "cover": "http://data.beautynose.com.tw/img/06e2e8c78148ee4b4495cee5dd32a52c.png",
+            "photo": "http://data.beautynose.com.tw/img/06e2e8c78148ee4b4495cee5dd32a52c.png",
+            "type": "",
             "url": "http://atin807.pixnet.net/blog/post/26188607",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
+            "sort": 10,
+            "media": "",
+            "date": "2015-12-15",
+            "create": "2016-11-29 03:11"
         },
         {
-            "title": "《做個美鼻好過年》 卡麥拉隆鼻滿月分享-高雄萊佳許英哲 ",
-            "summary": "",
-            "date": "2016年1月",
-            "create": "2016-11-29 03:11",
-            "media": "",
-            "sort": 10,
+            "title": "做個美鼻好過年~卡麥拉隆鼻滿月分享",
+            "summary": "原本以為我會先削骨，不過人生總是會有意外！意外先找了高雄鼻王子許英哲醫師，這個過年很美好啊！",
+            "cover": "http://data.beautynose.com.tw/img/8ac7bda0d56427b326cddd5822e41360.png",
+            "photo": "http://data.beautynose.com.tw/img/8ac7bda0d56427b326cddd5822e41360.png",
+            "type": "",
             "url": "http://fibi38.pixnet.net/blog/post/42777644",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
+            "sort": 10,
+            "media": "講不聽雜碎盤™",
+            "date": "2016年1月",
+            "create": "2016-11-29 03:11"
         },
         {
-            "title": "《卡麥拉給了我新人生》 術後6個月分享-高雄萊佳許英哲",
-            "summary": "",
-            "date": "2016年7月",
-            "create": "2016-11-29 03:11",
-            "media": "",
-            "sort": 10,
+            "title": "卡麥拉新人生-術後5個月再分享",
+            "summary": "高雄萊佳診所許英哲醫師巧手大改造~鼻子掌管財富，現在喜歡露臉的講不聽，case真的越接越多！",
+            "cover": "http://data.beautynose.com.tw/img/046274d96f6a57e53fae70cc8d33e638.png",
+            "photo": "http://data.beautynose.com.tw/img/046274d96f6a57e53fae70cc8d33e638.png",
+            "type": "",
             "url": "http://fibi38.pixnet.net/blog/post/43011809",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
+            "sort": 10,
+            "media": "講不聽雜碎盤™",
+            "date": "2016年7月",
+            "create": "2016-11-29 03:11"
+        },
+        {
+            "title": "決定隆鼻就像三溫暖，台北亞緻王祥亞院長讓我好安心! ",
+            "summary": "卡麥拉可以讓小璇擁有angelababy的女神鼻~又不用擔心未來走山的問題",
+            "cover": "http://data.beautynose.com.tw/img/8486ef6e6dd40938a264e9b2e76d6ade.png",
+            "photo": "http://data.beautynose.com.tw/img/8486ef6e6dd40938a264e9b2e76d6ade.png",
+            "type": "",
+            "url": "http://ok19860.pixnet.net/blog/post/333545685-%E3%80%90%E6%89%8B%E8%A1%93%E3%80%91%E9%9A%86%E9%BC%BB%E9%81%8E%E7%A8%8B#comment-42629072",
+            "sort": 10,
+            "media": "~☆迷糊の生活天地★~",
+            "date": "2016-09-09",
+            "create": "2016-12-27 11:47"
+        },
+        {
+            "title": "俊美診所 X 卡麥拉打造混血挺鼻妞",
+            "summary": "健康膚色的菲比，經過吳峻豪醫師利用卡麥拉巧手改造，搖身一變混血妞！",
+            "cover": "http://data.beautynose.com.tw/img/a46dec711d36e0824d1e8a2a0910535e.png",
+            "photo": "http://data.beautynose.com.tw/img/a46dec711d36e0824d1e8a2a0910535e.png",
+            "type": "",
+            "url": "http://z12342187.pixnet.net/blog/post/451022456",
+            "sort": 10,
+            "media": "♥Milly米莉下一站去哪呢♥",
+            "date": "2016-09-09",
+            "create": "2016-12-27 12:08"
         }
     ],
     "activity": [
         {
             "title": "新一代卡麥拉，美型上市！",
             "summary": "",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png",
+            "cover": "http://data.beautynose.com.tw/img/96f1754f3cc9e7dc4387115621001d5a.png",
+            "photo": "http://data.beautynose.com.tw/img/96f1754f3cc9e7dc4387115621001d5a.png",
+            "type": "",
             "url": "",
-            "sort": 10,
-            "date": "",
             "media": "",
+            "date": "2016-12-16",
+            "sort": 10,
             "create": "2016-11-29 03:11"
-        },
-        {
-            "title": "美鼻修修",
-            "summary": "",
-            "sort": 10,
-            "create": "2016-11-29 03:11",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
-        },
-        {
-            "title": "鼻子超挺",
-            "summary": "",
-            "sort": 10,
-            "date": "",
-            "media": "",
-            "create": "2016-11-29 03:11",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
-        },
-        {
-            "title": "鼻子超挺",
-            "summary": "",
-            "sort": 10,
-            "date": "",
-            "media": "",
-            "create": "2016-11-29 03:11",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
-        },
-        {
-            "title": "鼻子超挺",
-            "summary": "",
-            "sort": 10,
-            "date": "",
-            "media": "",
-            "create": "2016-11-29 03:11",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
-        },
-        {
-            "title": "鼻子超挺",
-            "summary": "",
-            "sort": 10,
-            "date": "",
-            "media": "",
-            "create": "2016-11-29 03:11",
-            "photo": "http://data.beautynose.com.tw/img/e3a003ddac7ba80a8e6b9f9aa14458e8.png"
         }
     ]
 }

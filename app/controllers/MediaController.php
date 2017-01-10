@@ -68,7 +68,7 @@ class MediaController extends ControllerBase
                             $this->flashSession->error("請重新上傳封面圖片。");
                         }
                     }
-                    
+
                 }
             }
         }
@@ -91,6 +91,10 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請上傳展開圖片。");
         }
+        if ($type === "link" && $url === "") {
+            $hasError = true;
+            $this->flashSession->error("請輸入連結網址。");
+        }
         if ($type === "youtube") {
             parse_str(parse_url($url,PHP_URL_QUERY),$param_array);
             if (!array_key_exists("v", $param_array)) {
@@ -100,7 +104,7 @@ class MediaController extends ControllerBase
                 $url = $param_array["v"];
             }
         }
-        
+
         if($hasError){
             return $this->dispatcher->forward(array(
                 'controller'    => 'media',
@@ -123,7 +127,7 @@ class MediaController extends ControllerBase
             $data->media[] = $insert;
 
             file_put_contents('data.json', json_encode($data));
-            
+
 
             $this->flashSession->success("新增成功。");
             return $this->response->redirect($return_to, true);
@@ -194,7 +198,7 @@ class MediaController extends ControllerBase
                             $this->flashSession->error("請重新上傳封面圖片。");
                         }
                     }
-                    
+
                 }
             }
         }
@@ -207,7 +211,7 @@ class MediaController extends ControllerBase
             $hasError = true;
             $this->flashSession->error("請輸入日期。");
         }
-        
+
         $sort = (int)$sort;
         if ($sort === "" || !is_int($sort)) {
             $hasError = true;
@@ -230,7 +234,7 @@ class MediaController extends ControllerBase
                 $url = $param_array["v"];
             }
         }
-        
+
         if($hasError){
             return $this->dispatcher->forward(array(
                 'controller'    => 'media',
