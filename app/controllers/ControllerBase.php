@@ -16,7 +16,7 @@ class ControllerBase extends Controller
     // Run after method: beforeExecuteRoute
     public function initialize()
     {
-        
+
     }
 
     public function beforeExecuteRoute($dispatcher)
@@ -33,7 +33,7 @@ class ControllerBase extends Controller
         $auth = $this->di->get('auth');
         $user = $auth->getAuthIdentity();
 
-        if ($controller !== 'auth' && ($controller === 'index' && $action !== 'output') ) {
+        if ($controller !== 'auth' && ($controller === 'index' && ($action !== 'output' && $action !== 'input' && $action !== 'beautyCount')) ) {
             if ($user === 408) {
                 $t = $this->config->app->session->cookie_lifetime / 60;
                 if ($t < 60) {

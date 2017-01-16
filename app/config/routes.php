@@ -61,6 +61,18 @@ $router->add('/output', array(
     'controller' => 'index',
     'action' => 'output'
 ));
+$router->add('/input', array(
+    'controller' => 'index',
+    'action' => 'input'
+));
+$router->add('/beauty_count', array(
+    'controller' => 'index',
+    'action' => 'beautyCount'
+));
+$router->add('/beauty', array(
+    'controller' => 'index',
+    'action' => 'beauty'
+));
 $router->add('/')->setName('index');
 
 $router->notFound(array(
