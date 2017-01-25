@@ -39,8 +39,12 @@
 											<?php echo $row->mobile . '<br>' . $row->address . '<br>' . $row->email;?></td>
 										<td><?php echo $row->message;?></td>
 										<td>
+											<?php if($row->photo !== "") :?>
 											<img src="<?php echo $row->photo;?>" style="width:100%;">
 											<a href="<?php echo $row->photo;?>" download="<?php echo $row->name . '-' . $row->create;?>">儲存照片</a>
+											<?php else :?>
+												沒有照片
+											<?php endif;?>
 										</td>
 										<td><?php echo (empty($row->create)) ? "-" : $row->create;?></td>
 									</tr>

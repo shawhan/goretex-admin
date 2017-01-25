@@ -52,10 +52,15 @@ class IndexController extends ControllerBase
         $postdata = $this->request->getPost();
         extract($postdata, EXTR_SKIP);
 
-        $path = 'img/input/' . md5(uniqid(rand(), true)) . '.jpg';
-        move_uploaded_file($_FILES['file']['tmp_name'], $path);
+        if($_FILES['file']['tmp_name'] !== "") {
+            $path = 'img/input/' . md5(uniqid(rand(), true)) . '.jpg';
+            move_uploaded_file($_FILES['file']['tmp_name'], $path);
 
-        $photo_path = $this->di->config->site->url . '/'.  $path;
+            $photo_path = $this->di->config->site->url . '/'.  $path;
+        } else {
+            $photo_path = "";
+        }
+
 
         $input = json_decode(file_get_contents('input.json'));
         $insert = array(
@@ -97,7 +102,6 @@ class IndexController extends ControllerBase
 
     public function beautyAction()
     {
-
         $data = json_decode(file_get_contents('input.json'));
 
         $this->view->setVar('data', $data);
